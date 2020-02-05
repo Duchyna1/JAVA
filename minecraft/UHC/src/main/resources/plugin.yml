@@ -1,0 +1,12 @@
+name: UHC
+version: 1.0
+main: Main
+api-version: 1.13
+author: MOzAX
+commands:
+  start:
+    description: starts game
+    usage: /start
+  resetgame:
+    description: resets game
+    usage: /resetgame

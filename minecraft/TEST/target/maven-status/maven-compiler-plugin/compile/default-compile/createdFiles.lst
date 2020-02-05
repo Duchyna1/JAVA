@@ -1,0 +1,7 @@
+commnads\CMD_spawn.class
+eventHandlers\joinMessage.class
+eventHandlers\pandaDamage.class
+main.class
+commnads\CMD_pet.class
+commnads\CMD_starterPack.class
+commnads\CMD_heal.class

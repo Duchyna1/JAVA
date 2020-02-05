@@ -1,0 +1,6 @@
+items\craftings.class
+commnads\CMD_start.class
+Main.class
+commnads\CMD_resetgame.class
+eventHandlers\SignTeleport.class
+eventHandlers\DeathSpectator.class

@@ -1,0 +1,4 @@
+name: Items
+version: ${project.version}
+main: items.Items
+api-version: 1.13
