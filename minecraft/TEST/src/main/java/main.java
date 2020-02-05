@@ -1,7 +1,4 @@
-import commnads.CMD_heal;
-import commnads.CMD_pet;
-import commnads.CMD_spawn;
-import commnads.CMD_starterPack;
+import commnads.*;
 import eventHandlers.joinMessage;
 import eventHandlers.pandaDamage;
 import org.bukkit.ChatColor;
@@ -25,6 +22,7 @@ public final class main extends JavaPlugin implements Listener {
         getCommand("starterpack").setExecutor(new CMD_starterPack());
         getCommand("heal").setExecutor(new CMD_heal());
         getCommand("pet").setExecutor(new CMD_pet());
+        getCommand("line").setExecutor(new CMD_line());
     }
 
     @Override

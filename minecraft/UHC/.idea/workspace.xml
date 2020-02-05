@@ -42,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowVersion Control.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TEST" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -136,10 +136,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1580152362526" />
-    <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1580413799478">
+    <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1580921265241">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="125" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1580413799478" />
+    <state x="463" y="125" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1580921265241" />
     <state width="1323" height="83" key="GridCell.Tab.0.bottom" timestamp="1580413801907">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
