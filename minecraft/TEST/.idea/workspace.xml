@@ -34,7 +34,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JAVA-games" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -130,10 +130,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1580416567155" />
-    <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1580663861997">
+    <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1584785630988">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="125" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1580663861997" />
+    <state x="463" y="125" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1584785630988" />
     <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1580417245097">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -150,10 +150,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1580417245096" />
-    <state x="378" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1581177449573">
+    <state x="378" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1584785601954">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="378" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1581177449573" />
+    <state x="378" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1584785601954" />
     <state x="65" y="40" key="new project wizard" timestamp="1579884737061">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
