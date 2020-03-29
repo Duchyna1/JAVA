@@ -27,7 +27,13 @@ public class Ball {
     public void update(){
         this.x += this.speedX;
         this.y += this.speedY;
-        if ((this.x < this.r+20) && ((pong.paddle1.y<this.y) && (this.y<pong.paddle1.y+pong.paddle1.height)) || ((this.x > Gdx.graphics.getWidth()-this.r-20) && ((pong.paddle2.y<this.y) && (this.y<pong.paddle2.y+pong.paddle2.height)))){
+        if (
+                ((this.x < this.r+20) &&
+                        ((pong.paddle1.y<this.y) &&
+                                (this.y<pong.paddle1.y+pong.paddle1.height))) ||
+                ((this.x > Gdx.graphics.getWidth()-this.r-20) &&
+                        ((pong.paddle2.y<this.y) &&
+                                (this.y<pong.paddle2.y+pong.paddle2.height)))){
             this.bounces++;
             this.speedX *= -1;
             if (this.bounces%10 == 0){
@@ -35,6 +41,11 @@ public class Ball {
             }
             this.speedY = randomSpeed(5);
         } else if ((this.x < this.r+20) || (this.x > Gdx.graphics.getWidth()-this.r-20)){
+            if (this.x < this.r+20){
+                pong.score2.addScore();
+            } else if (this.x > Gdx.graphics.getWidth()-this.r-20){
+                pong.score1.addScore();
+            }
             pong.ball = new Ball(250, 250, 12, Color.WHITE, 8, randomSpeed(3));
             pong.paddle2.y = pong.ball.y-pong.paddle2.height/2;
         }
