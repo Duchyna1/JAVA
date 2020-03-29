@@ -1,3 +1,5 @@
+package com.dusek.pong;
+
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
@@ -6,18 +8,18 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 
 import java.util.Random;
 
-public class main implements ApplicationListener {
+public class pong implements ApplicationListener {
 	ShapeRenderer shape;
 	static Ball ball;
-	Paddle paddle1;
-	Paddle paddle2;
+	static Paddle paddle1;
+	static Paddle paddle2;
 
 	@Override
 	public void create() {
 		shape = new ShapeRenderer();
-		ball = new Ball(250, 250, 12, Color.WHITE, 8, randomSpeed(8));
-		paddle1 = new Paddle(10, 0, 10, 70, Color.BLUE);
-		paddle2 = new Paddle(Gdx.graphics.getWidth()-20, 0, 10, 70, Color.RED);
+		ball = new Ball(250, 250, 12, Color.WHITE, 8, randomSpeed(3));
+		paddle1 = new Paddle(10, 250, 10, 70, Color.BLUE, false);
+		paddle2 = new Paddle(Gdx.graphics.getWidth()-20, 250, 10, 70, Color.RED, true);
 	}
 
 	@Override

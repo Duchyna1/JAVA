@@ -20,7 +20,7 @@ allprojects {
 
     version = '1.0'
     ext {
-        appName = "test"
+        appName = "Pong"
         gdxVersion = '1.9.10'
         roboVMVersion = '2.3.8'
         box2DLightsVersion = '1.4'
@@ -59,6 +59,7 @@ project(":core") {
     dependencies {
         api "com.badlogicgames.gdx:gdx:$gdxVersion"
         api "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
+        api "com.badlogicgames.gdx:gdx-ai:$aiVersion"
         api "com.badlogicgames.box2dlights:box2dlights:$box2DLightsVersion"
         
     }
